@@ -1,0 +1,138 @@
+body{
+	margin:0;
+	font-family: 'Roboto-Regular';
+}
+body a{
+	transition: 0.5s all ease;
+	-webkit-transition: 0.5s all ease;
+	-moz-transition: 0.5s all ease;
+	-o-transition: 0.5s all ease;
+	-ms-transition: 0.5s all ease;
+	text-decoration:none;
+}
+h1,h2,h3,h4,h5,h6{
+	margin:0;			   
+}
+p{
+	margin:0;
+}
+ul,label{
+	margin:0;
+	padding:0;
+}
+body a:hover{
+	text-decoration:none;
+}
+/*--header--*/
+div#bs-example-navbar-collapse-1 {
+    padding: 0;
+}
+nav.navbar.navbar-default {
+    background: none;
+    border: none;
+    margin: 0;
+}
+ul.nav.navbar-nav {
+    margin-top: 1em;
+}
+@font-face {
+  font-family: 'Roboto-Regular';
+  src: url(../fonts/Roboto-Regular.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Romanesco-Regular';
+src: url(../fonts/Romanesco-Regular.ttf) format('truetype');
+}
+.footer {
+  margin-top: 21em;
+}
+.footer-left {
+  background-color: #555;
+  padding: 2em 5em;
+}
+.footer-left h3 {
+  font-size: 1.8em;
+  color: #fff;
+  margin-bottom: 0.8em;
+}
+.footer-left li {
+  display: block;
+  color: rgba(255, 255, 255, 0.59);
+  font-size: 1em;
+  margin-top: 0.5em;
+}
+.footer-left li a {
+  color: rgba(255, 255, 255, 0.59);
+  font-size: 1em;
+}
+.footer-left li a:hover {
+  color: #F35B5B;
+}
+.footer-right {
+  text-align: center;
+  padding: 2em 2em 1.5em;
+}
+.footer.about-footer {
+  margin: 0;
+}
+@media(max-width:1080px){
+.footer {
+  margin-top: 19em;
+}
+.footer-left {
+  padding: 2em 3em;
+}}
+@media(max-width:991px){
+.footer {
+  margin-top: 15em;
+}
+.footer-text {
+  float: left;
+  width:33.33%;
+}
+.footer-left {
+  padding: 2em 10em;
+}}
+@media(max-width:800px){.footer-left {
+  padding: 2em 9em;
+}
+.footer-left {
+  padding: 2em 2em;
+}
+}
+@media(max-width:640px){
+.footer {
+  margin-top: 2em;
+}
+}
+@media(max-width:480px){
+  .footer-left {
+    padding: 2em 1em 0.5em;
+}
+.footer-left h3 {
+    font-size: 1.4em;
+    margin-bottom: 0.5em;
+}
+.footer-left li a {
+    font-size: 0.9em;
+}
+.footer-left li {
+    font-size: 0.9em;
+}
+.footer-text {
+    float: none;
+    width: 100%;
+    margin-bottom: 1.5em;
+}
+}
+@media(max-width:320px){
+  .footer-right {
+    padding: 1.5em 1em;
+}
+.footer-left h3 {
+  font-size: 1.3em;
+}
+.footer-left {
+  padding: 1.5em 0 0em;
+}}
+   
